@@ -1,0 +1,66 @@
+
+
+.empresa-button{
+    background-color: rgb(231, 118, 37);
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.empresa-button:hover{
+    background-color: rgb(236, 157, 100);
+    color: rgb(255, 72, 0);
+}
+
+.usuario-button{
+    background-color: rgb(75, 126, 194);
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px ;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;  
+}
+.usuario-button:hover{
+    background-color: rgb(85, 149, 233);
+    color: rgb(0, 18, 179);
+}
+
+#empresa{
+    margin-right: 10px;
+}
+
+#usuario{
+    margin-right: 10px;
+}
+
+.bg-image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.navbar{
+    background: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar.active{
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.2s background-color; 
+}

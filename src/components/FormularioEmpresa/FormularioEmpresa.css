@@ -1,0 +1,41 @@
+
+
+/* formulario */
+
+.fregistro{
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+#formulario-container {
+    max-width: 1200px; 
+    margin: 0 auto;   
+}
+
+
+#primerFormulario{
+    margin-top: 50px;
+}
+
+#miBoton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#miBoton:hover {
+    background-color: #45a049;
+}
+
+#Benviar{
+    margin-top: 50px;
+}
+
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}

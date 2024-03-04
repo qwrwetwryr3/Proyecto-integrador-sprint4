@@ -1,0 +1,22 @@
+.tarjeta-curriculum{
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(201, 194, 191);
+}
+
+.tarjeta-curriculum h1{
+  font-size: 2rem;
+}
+
+.tarjeta-curriculum h3{
+  font-size: 1.2rem;
+}
+
+.tarjeta-curriculum h4{
+  font-size: 1rem;
+}
+
+.tarjeta-curriculum .educacion p, .experiencia p, .certificaciones p{
+  margin: 2px;
+  border: rgb(201, 199, 199) 1px solid;
+}

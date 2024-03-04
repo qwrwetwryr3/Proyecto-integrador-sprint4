@@ -1,0 +1,62 @@
+#fondo2 {
+  padding-top: 200px;
+  background-image: url("./fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Contenido principal */
+main {
+  min-height: calc(100vh - 10px - 10px); 
+   /* Ajusta la altura según el tamaño del header y footer */
+}
+
+/*registro*/
+.registro-flotante {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 120px;
+}
+
+.registro-flotante h2 {
+  margin-top: 10;
+  margin-bottom: 10px;
+}
+
+.registro-flotante form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-flotante label {
+  margin-bottom: 5px;
+}
+
+.registro-flotante input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.registro-flotante button {
+  padding: 10px 15px;
+  background-color: #0f8f9e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registro-flotante button:hover {
+  background-color: #106f2e;
+}
+
+/*registro 2*/
+.cuadrado {
+  background-color: #ffffff;
+  color: #ffffff;
+}

@@ -1,0 +1,23 @@
+#headerUsuario{
+  text-align: center;
+  height: 300px;
+  padding: 50px;
+  background-image: url('https://images.pexels.com/photos/409696/pexels-photo-409696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.imagen{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.nombre-usuario{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.perfil{
+  padding: 50px;
+  background-color: rgba(2, 327, 202, 0.2);
+}
